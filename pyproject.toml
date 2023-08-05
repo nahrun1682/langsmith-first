@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "langsmith-first"
+version = "0.1.0"
+description = ""
+authors = ["nahrun1682 <kawamura100995@gmai.com>"]
+readme = "README.md"
+packages = [{include = "langsmith_first"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
